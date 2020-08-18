@@ -1,6 +1,4 @@
-@media only screen and (max-width:600px) {
 
-}
 * {
     box-sizing: border-box;
 }
@@ -23,7 +21,7 @@ html {
     background-color: #bd5d38;
 }
 
-.nav-link {
+.nav-link , .nav-link-button{
     padding: 10px 20px 10px 20px;
     color: #d7d7d7;
     align-self: center;
@@ -34,7 +32,9 @@ html {
 .nav-link:hover {
     opacity: 0.7;
 }
-
+.nav-link-button:hover {
+    opacity: 0.7;
+}
 #welcome-section , #projects {
     padding: 100px 30px 30px 25%;
     height: 100vh;
@@ -70,4 +70,13 @@ html {
 }
 .project-title {
     text-transform: uppercase;
+}
+
+@media only screen and (max-width:800px) {
+    #navbar {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+
+    }
 }
