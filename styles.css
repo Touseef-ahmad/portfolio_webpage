@@ -55,9 +55,11 @@ html {
 }
 #name {
     text-transform: uppercase;
-    font-family: 'Alata', sans-serif;
-    font-size: 60px;
-    padding-bottom: 0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 100px;
+    color: #343a40;
+    display: inline;
 }
 #sir-name {
     color: #bd5d38;
@@ -79,7 +81,7 @@ html {
 .profile-link {
     font-size: 15px;
     padding: 20px;
-    color: black;
+    color: #343a40;
 }
 .project-title {
     text-transform: uppercase;
