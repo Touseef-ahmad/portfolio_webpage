@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Personal portfolio</title>
 </head>
+
 <body>
     <nav id="navbar">
+        <a class="nav-link" href="#welcome-section">Introduction</a>
         <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#projects">Experience</a>
+        <a class="nav-link" href="#projects">Education</a>
+        <a class="nav-link" href="#projects">Skills</a>
     </nav>
     <div id="welcome-section">
-        <h1>Touseef Ahmad</h1>
+        <h1 id="name">Touseef <span id="sir-name">Ahmad</span></h1><br>
+        <span id="email">touseefahmadcs@gmail.com</span>
+        <p id="about">Fresh Software Engineer with skills in Web and mobile application development. Strong engineering
+            professional with a Bachelor's degree focused in Computer Science from National University of Sciences and
+            Technology (NUST). </p>
+        <div id="profile-links-section">
+            <a class="profile-link" href=""><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
+            <a class="profile-link" href=""><i class="fa fa-whatsapp fa-4x" aria-hidden="true"></i></a>
+            <a id="profile-link" class="profile-link" href="https://github.com/Touseef-ahmad/" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+            <a class="profile-link" href=""><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+        </div>
     </div>
-    <main>
-        <section id="projects">
-            <div class="project">
-                <h2 class="project-title"></h2>
-                <p class="project-description"></p>
+    <div id="projects">
+        <div class="project-tile">
+            <h2 class="project-title">A real estate website (like zameen.com)</h2>
+            <p class="project-description">This was my Final year project. We used AI and ML techniques to predict the price of a given property using its features like area, location etc.</a>
+        </div>
+        <div class="project-tile">
+            <h2 class="project-title">Search engine using java</h2>
+            <p class="project-description">This was a semester project. This was a greate learning experience for me. I
+                learnt how search engines work by creating a tiny version of search engine along with my teams.</p>
+           
+        </div>
+    </div>
 
-            </div>
-        </section>
-    </main>
 </body>
+
 </html>
