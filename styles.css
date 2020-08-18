@@ -21,6 +21,13 @@ html {
     background-color: #bd5d38;
 }
 
+#profile-pic {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    border: 10px solid #c17a59;
+}
+
 .nav-link , .nav-link-button{
     padding: 10px 20px 10px 20px;
     color: #d7d7d7;
@@ -28,6 +35,11 @@ html {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+}
+.nav-link-button {
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
 }
 .nav-link:hover {
     opacity: 0.7;
@@ -65,6 +77,7 @@ html {
     margin-top: 50px;
 }
 .profile-link {
+    font-size: 15px;
     padding: 20px;
     color: black;
 }
@@ -79,4 +92,22 @@ html {
         flex-direction: column;
 
     }
+    .profile-link {
+        font-size: 10px;
+    }
+    .nav-link , #profile-pic{
+        display: none;
+    }
+    #welcome-section , #projects {
+        padding: 100px 30px 30px 30px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .nav-link-button {
+        display: none;
+    }
+    .nav-link {
+        display: block !important;
+    }
+   
 }
